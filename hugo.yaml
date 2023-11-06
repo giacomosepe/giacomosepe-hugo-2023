@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://melodic-mooncake-c11a35.netlify.app/"
 languageCode: "en-us"
 title: Giacomo Sepe
 theme: "maverick"
