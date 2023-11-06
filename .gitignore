@@ -1,0 +1,13 @@
+.DS_Store
+# Ignore the node_modules directory
+themes/
+# Ignore Logs
+logs
+*.log
+
+# The file containing environment variables 
+.env
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sw*
