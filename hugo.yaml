@@ -13,10 +13,11 @@ menu:
 
 permalinks:
   pages: "/:slug"
+  articles: "/:slug"
 
 params:
   logo: "/assets/favicon.ico"
-  description: "Coroporate Developoment | Entrepreneur"
+  description: "Entrepreneur"
   author: "Giacomo Sepe"
 
   # params.comments:

@@ -19,10 +19,10 @@
 
       {{ .Content }}
     
-      {{ if gt (len ( where .Site.RegularPages "Section" "posts" )) 0 }}
+      {{ if gt (len ( where .Site.RegularPages "Section" "articles" )) 0 }}
       <h1>Latest 3 Post</h1>
       <section>
-        {{ range (first 3 (where .Site.RegularPages "Section" "posts" ).ByDate.Reverse) }}
+        {{ range (first 3 (where .Site.RegularPages "Section" "experiences" ).ByDate.Reverse) }}
           <p>
             <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>&nbsp;
             <a href="{{ .Permalink }}">{{ .Title }}</a>
