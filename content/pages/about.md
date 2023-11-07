@@ -1,19 +1,11 @@
 ---
 title: About
+layout: about
 ---
 
-**Maverick** is a minimalistic Hugo blogging theme. The theme is inspired from [Poole](https://getpoole.com) and [Listed](https://github.com/ronv/listed)
+# Manifesto
 
-### Features for giacomo
-
-- Minimalistic, clean and simple design
-- Responsive design
-- Inline CSS
-- Anchor headings
-- Tags
-- 404 page
-- Compressed CSS and HTML
-- 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
-- Robots.txt
-- Ultra fast
-- Github comment
+- Driven by curiosity and always following the life story path set in 2020
+- Developing a portfolio of services, products, and solutions that help entrepreneurs and shareholders create valuable businesses
+- Always focused on the value created through the product and services that get purchased by clients/users
+-

@@ -6,10 +6,16 @@ theme: "maverick"
 menu:
   main:
     - name: About
-      url: /about
+      url: /about/
+      weight: 10
+
+    - name: Experiences
+      url: /articles/
+      weight: 20
 
     - name: Articles
-      url: /articles
+      url: https://giacomosepe.substack.com
+      weight: 30
 
 permalinks:
   pages: "/:slug"
