@@ -1,11 +1,14 @@
 <header>
-<p style="padding: 0;margin: 0;">
-  <a href="/">
-    <b>{{ .Site.Title }}</b>
-    <span class="text-stone-500 animate-blink">▮</span>
-  </a>
-</p>
-<ul style="padding: 0;margin: 0;">
+   
+      <p style="padding: 0;margin: 0;">
+        <a href="/">
+          <b>{{ .Site.Title }}</b>
+          <span class="text-stone-500 animate-blink">▮</span>
+        </a>
+      </p>
+    
+
+<ul style="padding: 0; ">
   {{ $currentPage := . }}
   {{ range .Site.Menus.main }}
   <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" >
@@ -13,5 +16,6 @@
     {{ end }}
   </li>
 </ul>
+
 </header>
 <hr class="hr-list" style="padding: 0;margin: 0;">
